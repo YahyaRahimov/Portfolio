@@ -17,7 +17,7 @@ body {
   height: 100%;
   padding: 0;
   margin: 0;
-  font-family: 'Arial', sans-serif;
+  font-family: 'Oswald', sans-serif;
   font-size: 16px;
   line-height: 1.5;
   background-color: #fff;
@@ -33,7 +33,7 @@ img {
 /* CONTAINER */
 .container {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1600px;
   padding-left: 50px;
   padding-right: 50px;
   margin-left: auto;
@@ -42,6 +42,179 @@ img {
 
 
 /* MAIN-CONTENT */
-  .main-content {
-    flex-grow: 1;
-  }
+.main-content {
+  flex-grow: 1;
+}
+
+
+/* HOME */
+
+.home-section {
+  background-image: url(../img/space.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center top;
+  background-attachment: scroll;
+}
+
+.home-head {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  min-height: 850px;
+  color: #fff;
+}
+
+.site-header {
+  display: flex;
+  padding-top: 10px;
+  padding-bottom: 14px;
+}
+
+.site-header:hover {
+  background-color: rgba(255, 254, 254, 0.13);
+}
+
+.header-nav {
+  display: flex;
+  align-items: center;
+  margin-left: auto;
+  margin-right: auto;
+
+}
+
+.nav-list {
+  display: flex;
+  /* height: 34px; */
+  align-items: center;
+  list-style: none;
+  padding-left: 28px;
+  padding-right: 28px;
+  margin: 0;
+  border-left: 1px solid #fff;
+  border-right: 1px solid #fff;
+
+}
+
+.nav-button {
+  display: inline-block;
+  width: 100px;
+  font-family: 'Oswald','Arial', sans-serif;
+  text-align: center;
+  font-size: 18px;
+  border-radius: 5px;
+  color: #fff;
+  border: 1px solid transparent;
+  padding: 5px 3px;
+  background-color: rgb(2, 115, 2);
+  margin-left: 20px;
+  text-decoration: none;
+}
+
+.nav-button:hover {
+  background-color: transparent;
+  border-color: #fff;
+}
+
+.nav-button:active {
+  background-color:rgba(2, 115, 2, 0.8);
+  /* opacity: 0.8; */
+}
+
+.nav-item {
+  font-weight: 500;
+  margin-right: 70px;
+  font-size: 24px;
+  letter-spacing: 0.5px;
+}
+
+.nav-item:last-child {
+  margin-right: 0;
+}
+
+
+
+.img-text-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.wrapper-texts {
+  display: flex;
+  flex-direction: column;
+}
+
+.home-heading {
+  font-family: 'Josefin Sans', sans-serif;
+  font-size: 90px;
+  font-weight: 700;
+  margin-top: 140px;
+  margin-left: 20px;
+}
+
+.heading-text {
+  font-size: 20px;
+  width: 500px;
+  margin-left: 20px;
+}
+
+.img-div {
+  margin-top: 60px;
+  margin-right: 70px;
+  padding: 1px;
+  border-radius: 1px;
+  background-color: #fff;
+}
+
+.palestine {
+  display: flex;
+  background-color: transparent;
+}
+
+.nav-link {
+  text-decoration: none;
+  padding-bottom: 2px;
+  color: #ffffffce;
+  transition:border-bottom 0.1s ease ;
+}
+
+.nav-link:hover {
+  border-bottom: 3px solid #fff;
+  color: #fff;
+}
+
+.nav-link:active {
+  opacity: 0.7;
+}
+
+
+/* EARTH_SECTION */
+.earth-section {
+  margin-top: 30px;
+  padding-bottom: 60px;
+}
+.earth-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.earth-texts {
+  width: 600px;
+}
+.earth-heading {
+  font-size: 38px;
+  letter-spacing: 2px;
+}
+.earth-text {
+  font-size: 18px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+.earth-img-wrapper {
+  padding-top: 90px;
+  margin-right: 70px;
+}
+.earth-img {
+  border-radius: 50%;
+}
